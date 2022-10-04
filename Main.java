@@ -20,8 +20,11 @@ public class Main {
 //        System.out.println(Arrays.toString(Q350_Intersection_of_Two_Arrays_II.intersect(nums1, nums2)));
 //        int[] prices = {7,1,5,3,6,4};
 //        int[] prices = {7,6,4,3,1};
-        int[] prices = {2,4,1};
+//        int[] prices = {2,4,1};
 //        int[] prices = {2,1,2,1,0,1,2};
-        System.out.println(Q121_Best_Time_to_Buy_and_Sell_Stock.maxProfit(prices));
+//        System.out.println(Q121_Best_Time_to_Buy_and_Sell_Stock.maxProfit(prices));
+//        int[][] test = {{1,2},{3,4}};//00,01,10,11 -> 00,01,02,03
+        int[][] test = {{1,2},{3,4}};
+        System.out.println(Arrays.toString(Q566_Reshape_the_Matrix.matrixReshape(test, 4, 1)));
     }
 }

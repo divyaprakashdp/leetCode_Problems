@@ -24,7 +24,13 @@ public class Main {
 //        int[] prices = {2,1,2,1,0,1,2};
 //        System.out.println(Q121_Best_Time_to_Buy_and_Sell_Stock.maxProfit(prices));
 //        int[][] test = {{1,2},{3,4}};//00,01,10,11 -> 00,01,02,03
-        int[][] test = {{1,2},{3,4}};
-        System.out.println(Arrays.toString(Q566_Reshape_the_Matrix.matrixReshape(test, 4, 1)));
+//        int[][] test = {{1,2},{3,4}};
+//        System.out.println(Arrays.toString(Q566_Reshape_the_Matrix.matrixReshape(test, 4, 1)));
+
+//        System.out.println(Q387_First_Unique_Character_in_a_String.firstUniqChar("leetcode"));
+        System.out.println(Q383_Ransom_Note.canConstruct("a", "b"));
+        System.out.println(Q383_Ransom_Note.canConstruct("fffbfg", "effjfggbffjdgbjjhhdegh"));
+        System.out.println(Q383_Ransom_Note.canConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi"));
+        System.out.println(Q383_Ransom_Note.canConstruct("bhjdigif", "dbjdhdehgbcdjjgadeegdbegehjffie"));
     }
 }

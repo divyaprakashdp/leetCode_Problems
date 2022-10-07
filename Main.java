@@ -28,9 +28,20 @@ public class Main {
 //        System.out.println(Arrays.toString(Q566_Reshape_the_Matrix.matrixReshape(test, 4, 1)));
 
 //        System.out.println(Q387_First_Unique_Character_in_a_String.firstUniqChar("leetcode"));
-        System.out.println(Q383_Ransom_Note.canConstruct("a", "b"));
-        System.out.println(Q383_Ransom_Note.canConstruct("fffbfg", "effjfggbffjdgbjjhhdegh"));
-        System.out.println(Q383_Ransom_Note.canConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi"));
-        System.out.println(Q383_Ransom_Note.canConstruct("bhjdigif", "dbjdhdehgbcdjjgadeegdbegehjffie"));
+//        System.out.println(Q383_Ransom_Note.canConstruct("a", "b"));
+//        System.out.println(Q383_Ransom_Note.canConstruct("fffbfg", "effjfggbffjdgbjjhhdegh"));
+//        System.out.println(Q383_Ransom_Note.canConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi"));
+//        System.out.println(Q383_Ransom_Note.canConstruct("bhjdigif", "dbjdhdehgbcdjjgadeegdbegehjffie"));
+        char[][] board = {{'5','3','.','.','7','.','.','.','.'}
+                        ,{'6','.','.','1','9','5','.','.','.'}
+                        ,{'.','9','8','.','.','.','.','6','.'}
+                        ,{'8','.','.','.','6','.','.','.','3'}
+                        ,{'4','.','.','8','.','3','.','.','1'}
+                        ,{'7','.','.','.','2','.','.','.','6'}
+                        ,{'.','6','.','.','.','.','2','8','.'}
+                        ,{'.','.','.','4','1','9','.','.','5'}
+                        ,{'.','.','.','.','8','.','.','7','9'}};
+
+        System.out.println(Q36_Valid_Sudoku.isValidSudoku(board));
     }
 }
